@@ -20,3 +20,29 @@ body{
   box-shadow: 0 6px 20px rgba(0,0,0,.2); 
 
 }
+
+table.listdate{position: relative;
+  margin: 0 auto;
+  width: 70%;
+  background-color: white;
+  border: solid 1px rgb(19, 0, 128);
+  border-spacing: 3px;
+}
+
+
+table.listdate tr:first-child{
+  text-align: left;
+  background-color: #a6caf0;
+  vertical-align: top;
+}
+
+table.listdate tr:nth-child(2n){
+  background-color: #efefff;
+}
+
+table.listdate tr>td:first-child{
+  width: 12%;
+  height: 20px;
+  text-align: center;
+}
+
